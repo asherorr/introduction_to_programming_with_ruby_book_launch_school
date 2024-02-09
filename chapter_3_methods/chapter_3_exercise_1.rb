@@ -1,9 +1,11 @@
-#Write a program that prints a greeting message. 
-#This program should contain a method called greeting that takes a name as its parameter..
-#.. and returns a string.
+# frozen_string_literal: true
+
+# Write a program that prints a greeting message.
+# This program should contain a method called greeting that takes a name as its parameter..
+# .. and returns a string.
 
 def greeting(name)
-    return "Hi #{name}!"
+  "Hi #{name}!"
 end
 
-puts greeting("Asher")
+puts greeting('Asher')

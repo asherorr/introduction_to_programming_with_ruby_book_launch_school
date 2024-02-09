@@ -1,19 +1,13 @@
-#Write down whether the following expressions return true or false or raise an error.
+# frozen_string_literal: true
 
-(32 * 4) >= "129"
-#raises error (integer cannot be compared to string)
+# Write down whether the following expressions return true or false or raise an error.
 
-847 == '847'
-#false
-
-'847' < '846'
-#false
-
-'847' > '846'
-#true
-
-'847' > '8478'
-#false
+(32 * 4)
+# raises error (integer cannot be compared to string)
+# false
+# false
+# true
+# false
 
 '847' < '8478'
-#true
+# true

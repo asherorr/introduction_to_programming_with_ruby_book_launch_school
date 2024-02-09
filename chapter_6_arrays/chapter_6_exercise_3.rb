@@ -1,8 +1,10 @@
-#How do you return the word "example" from the following array?
+# frozen_string_literal: true
 
-arr = [["test", "hello", "world"],["example", "mem"]]
+# How do you return the word "example" from the following array?
+
+arr = [%w[test hello world], %w[example mem]]
 arr[1].first
 
-#other solutions
-#arr.last.first
-#arr[1][0]
+# other solutions
+# arr.last.first
+# arr[1][0]

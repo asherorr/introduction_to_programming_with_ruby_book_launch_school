@@ -1,5 +1,6 @@
-#If you see this error, what do you suspect is the most likely problem?
+# frozen_string_literal: true
+# If you see this error, what do you suspect is the most likely problem?
 
-#NoMethodError: undefined method `keys' for Array
+# NoMethodError: undefined method `keys' for Array
 
-#keys is not a method for objects belonging to the Array class.
+# keys is not a method for objects belonging to the Array class.

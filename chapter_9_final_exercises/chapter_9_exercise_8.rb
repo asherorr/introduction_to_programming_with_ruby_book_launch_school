@@ -1,9 +1,7 @@
-#Create a Hash, with one key-value pair, using both Ruby syntax styles.
+# frozen_string_literal: true
 
-my_hash_1 = {
-  name: "Asher"
-}
+# Create a Hash, with one key-value pair, using both Ruby syntax styles.
 
-my_hash_2 = {
-  name => "Asher"
+{
+  name => 'Asher'
 }

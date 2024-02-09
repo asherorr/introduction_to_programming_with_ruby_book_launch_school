@@ -1,5 +1,9 @@
+# frozen_string_literal: true
+
+# Use recursion to write a method that counts down to 0.
+
 def down_to_zero(num)
-  if num == 0
+  if num.zero?
     puts num
   else
     puts num

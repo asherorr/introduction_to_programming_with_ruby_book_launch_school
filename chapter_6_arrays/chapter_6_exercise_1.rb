@@ -1,4 +1,6 @@
-#We have given an array and a number.
+# frozen_string_literal: true
+
+# We have given an array and a number.
 # Write a program that checks to see if the number appears in the array.
 
 arr = [1, 3, 5, 7, 9, 11]

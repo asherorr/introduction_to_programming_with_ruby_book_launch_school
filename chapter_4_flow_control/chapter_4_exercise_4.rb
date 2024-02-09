@@ -1,29 +1,30 @@
-#What will each block of code below print to the screen? 
+# frozen_string_literal: true
+
+# What will each block of code below print to the screen?
 
 # Snippet 1
-'4' == 4 ? puts("TRUE") : puts("FALSE")
-#FALSE
+'4' == 4 ? puts('TRUE') : puts('FALSE')
+# FALSE
 
 # Snippet 2
 x = 2
 if ((x * 3) / 2) == (4 + 4 - x - 3)
-  puts "Did you get it right?"
+  puts 'Did you get it right?'
 else
-  puts "Did you?"
+  puts 'Did you?'
 end
-#Did you get it right?
+# Did you get it right?
 
 # Snippet 3
 y = 9
 x = 10
 if (x + 1) <= (y)
-  puts "Alright."
+  puts 'Alright.'
 elsif (x + 1) >= (y)
-  puts "Alright now!"
+  puts 'Alright now!'
 elsif (y + 1) == x
-  puts "ALRIGHT NOW!"
+  puts 'ALRIGHT NOW!'
 else
-  puts "Alrighty!"
+  puts 'Alrighty!'
 end
-#Alright now!
-
+# Alright now!

@@ -1,17 +1,19 @@
-#Refactor this code to remove the error message
+# frozen_string_literal: true
 
-#def equal_to_four(x)
-  #if x == 4
-    #puts "yup"
-  #else
-    #puts "nope"
-#end
+# Refactor this code to remove the error message
+
+# def equal_to_four(x)
+# if x == 4
+# puts "yup"
+# else
+# puts "nope"
+# end
 
 def equal_to_four(x)
   if x == 4
-    puts "yup"
+    puts 'yup'
   else
-    puts "nope"
+    puts 'nope'
   end
 end
 
